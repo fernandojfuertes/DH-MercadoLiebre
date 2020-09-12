@@ -1,7 +1,58 @@
+body {
+  margin: 0px auto;
+  padding: 0px auto;
+  font: 14px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-color: #EAC926;
+  padding: auto;
+}
+
 img {
   width: 100%;
 }
 
 li {
   list-style-type: none;
+}
+
+header img {
+  width: 100%;
+}
+
+p {
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.login {
+  background-color: #EBEBEB;
+}
+
+.precios {
+  font-size: 18px;
+}
+
+.descuentos,
+.descripciones {
+  font-size: 16px;
+}
+
+.fas.fa-truck,
+.descuentos {
+  color: #39b54a;
+}
+
+.far.fa-credit-card,
+.fas.fa-gift,
+.fas.fa-user-shield {
+  color: #03264C;
+}
+
+.articulo-main {
+  background-color: white;
 }
