@@ -29,8 +29,15 @@ h1 {
   font-size: 24px;
 }
 
-.login {
+.form-login {
   background-color: #EBEBEB;
+  justify-content: center;
+}
+
+.main-login h1 {
+  margin: 20px auto;
+  width: 90%;
+  text-align: center;
 }
 
 .precios {
@@ -55,4 +62,71 @@ h1 {
 
 .articulo-main {
   background-color: white;
+  margin: 20px;
+  padding: 15px;
+}
+
+.img-logo,
+.buscar-productos {
+  width: 50%;
+}
+
+.barra-nav {
+  display: none;
+}
+
+.boton-menu {
+  width: 20px;
+  height: 20px;
+  background-color: #04A;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.boton-menu:hover {
+  background-color: #02A;
+  cursor: pointer;
+}
+
+.img-banner {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  padding: 20px 5%;
+}
+
+.articulo-footer {
+  margin: 20px;
+}
+
+.input-texto {
+  width: 100%;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 0px solid white;
+}
+
+.input-usuario-boton {
+  color: white;
+  background-color: #04A;
+}
+
+.input-usuario-boton:hover {
+  background-color: #02A;
+}
+
+.input-usuario-boton-reset {
+  color: white;
+  background-color: #A04;
+}
+
+.input-usuario-boton-reset:hover {
+  background-color: #C15;
 }
