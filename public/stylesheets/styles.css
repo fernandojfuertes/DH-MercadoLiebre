@@ -31,7 +31,7 @@ h1 {
 
 .form-login {
   background-color: #EBEBEB;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .main-login h1 {
@@ -106,7 +106,7 @@ footer {
 }
 
 .input-texto {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   margin: 20px auto;
   border-radius: 5px;
@@ -129,4 +129,12 @@ footer {
 
 .input-usuario-boton-reset:hover {
   background-color: #C15;
+}
+
+
+
+
+
+logo-search {
+  display: flex;
 }
